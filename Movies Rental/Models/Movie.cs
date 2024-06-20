@@ -10,7 +10,7 @@ namespace Movies_Rental.Models
         public string? Title { get; set; }
         public string? Genre { get; set; }
         public decimal Price { get; set; }
-        [Display(Name = "Availibility")]
+        [Display(Name = "Is Rented")]
         public bool IsRented { get; set; }
     }
 }
