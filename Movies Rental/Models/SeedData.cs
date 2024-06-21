@@ -1,5 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using Movies_Rental.Data;
+using System;
+using System.Linq;
 
 namespace Movies_Rental.Models
 {
