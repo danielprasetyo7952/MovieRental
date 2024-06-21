@@ -15,5 +15,7 @@ namespace Movies_Rental.Data
         }
 
         public DbSet<Movies_Rental.Models.Movie> Movie { get; set; } = default!;
+
+        public DbSet<Movies_Rental.Models.User> User { get; set; } = default!;
     }
 }
